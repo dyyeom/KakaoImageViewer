@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C179CB35964F74CFED4D462 /* libPods-KakaoImageViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F29DBA4B1ADB16EB1B98D2A /* libPods-KakaoImageViewer.a */; };
+		9A070B0621CA786F00336C45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A070B0521CA786F00336C45 /* AppDelegate.swift */; };
+		9A070B0821CA786F00336C45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A070B0721CA786F00336C45 /* ViewController.swift */; };
+		9A070B0B21CA786F00336C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A070B0921CA786F00336C45 /* Main.storyboard */; };
+		9A070B0D21CA786F00336C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A070B0C21CA786F00336C45 /* Assets.xcassets */; };
+		9A070B1021CA786F00336C45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A070B0E21CA786F00336C45 /* LaunchScreen.storyboard */; };
+		9A070B1B21CA787000336C45 /* KakaoImageViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A070B1A21CA787000336C45 /* KakaoImageViewerTests.swift */; };
+		9A070B2621CA787000336C45 /* KakaoImageViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A070B2521CA787000336C45 /* KakaoImageViewerUITests.swift */; };
+		9A070B3421CA7D5700336C45 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A070B3321CA7D5700336C45 /* APIService.swift */; };
+		9A070B3621CA7F3100336C45 /* ImageListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A070B3521CA7F3100336C45 /* ImageListModel.swift */; };
+		9A070B3821CA87F800336C45 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A070B3721CA87F800336C45 /* ImageTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A070B1721CA787000336C45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A070AFA21CA786F00336C45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A070B0121CA786F00336C45;
+			remoteInfo = KakaoImageViewer;
+		};
+		9A070B2221CA787000336C45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A070AFA21CA786F00336C45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A070B0121CA786F00336C45;
+			remoteInfo = KakaoImageViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F29DBA4B1ADB16EB1B98D2A /* libPods-KakaoImageViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KakaoImageViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C11A1E5E7EE57481432500 /* Pods-KakaoImageViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoImageViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KakaoImageViewer/Pods-KakaoImageViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		9A070B0221CA786F00336C45 /* KakaoImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A070B0521CA786F00336C45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A070B0721CA786F00336C45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A070B0A21CA786F00336C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A070B0C21CA786F00336C45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A070B0F21CA786F00336C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A070B1121CA786F00336C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A070B1621CA787000336C45 /* KakaoImageViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakaoImageViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A070B1A21CA787000336C45 /* KakaoImageViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoImageViewerTests.swift; sourceTree = "<group>"; };
+		9A070B1C21CA787000336C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A070B2121CA787000336C45 /* KakaoImageViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakaoImageViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A070B2521CA787000336C45 /* KakaoImageViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoImageViewerUITests.swift; sourceTree = "<group>"; };
+		9A070B2721CA787000336C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A070B3321CA7D5700336C45 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		9A070B3521CA7F3100336C45 /* ImageListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListModel.swift; sourceTree = "<group>"; };
+		9A070B3721CA87F800336C45 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		E75EE75D495AAE0117A92912 /* Pods-KakaoImageViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoImageViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-KakaoImageViewer/Pods-KakaoImageViewer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A070AFF21CA786F00336C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C179CB35964F74CFED4D462 /* libPods-KakaoImageViewer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A070B1321CA787000336C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A070B1E21CA787000336C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D67E874A157E61951A883F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F29DBA4B1ADB16EB1B98D2A /* libPods-KakaoImageViewer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92F115F8659C27A116E05402 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84C11A1E5E7EE57481432500 /* Pods-KakaoImageViewer.debug.xcconfig */,
+				E75EE75D495AAE0117A92912 /* Pods-KakaoImageViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A070AF921CA786F00336C45 = {
+			isa = PBXGroup;
+			children = (
+				9A070B0421CA786F00336C45 /* KakaoImageViewer */,
+				9A070B1921CA787000336C45 /* KakaoImageViewerTests */,
+				9A070B2421CA787000336C45 /* KakaoImageViewerUITests */,
+				9A070B0321CA786F00336C45 /* Products */,
+				92F115F8659C27A116E05402 /* Pods */,
+				6D67E874A157E61951A883F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A070B0321CA786F00336C45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A070B0221CA786F00336C45 /* KakaoImageViewer.app */,
+				9A070B1621CA787000336C45 /* KakaoImageViewerTests.xctest */,
+				9A070B2121CA787000336C45 /* KakaoImageViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A070B0421CA786F00336C45 /* KakaoImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				9A070B0521CA786F00336C45 /* AppDelegate.swift */,
+				9A070B0721CA786F00336C45 /* ViewController.swift */,
+				9A070B0921CA786F00336C45 /* Main.storyboard */,
+				9A070B0C21CA786F00336C45 /* Assets.xcassets */,
+				9A070B0E21CA786F00336C45 /* LaunchScreen.storyboard */,
+				9A070B1121CA786F00336C45 /* Info.plist */,
+				9A070B3321CA7D5700336C45 /* APIService.swift */,
+				9A070B3521CA7F3100336C45 /* ImageListModel.swift */,
+				9A070B3721CA87F800336C45 /* ImageTableViewCell.swift */,
+			);
+			path = KakaoImageViewer;
+			sourceTree = "<group>";
+		};
+		9A070B1921CA787000336C45 /* KakaoImageViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A070B1A21CA787000336C45 /* KakaoImageViewerTests.swift */,
+				9A070B1C21CA787000336C45 /* Info.plist */,
+			);
+			path = KakaoImageViewerTests;
+			sourceTree = "<group>";
+		};
+		9A070B2421CA787000336C45 /* KakaoImageViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A070B2521CA787000336C45 /* KakaoImageViewerUITests.swift */,
+				9A070B2721CA787000336C45 /* Info.plist */,
+			);
+			path = KakaoImageViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A070B0121CA786F00336C45 /* KakaoImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A070B2A21CA787000336C45 /* Build configuration list for PBXNativeTarget "KakaoImageViewer" */;
+			buildPhases = (
+				64B737A0DCC7A243B2A65CF6 /* [CP] Check Pods Manifest.lock */,
+				9A070AFE21CA786F00336C45 /* Sources */,
+				9A070AFF21CA786F00336C45 /* Frameworks */,
+				9A070B0021CA786F00336C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KakaoImageViewer;
+			productName = KakaoImageViewer;
+			productReference = 9A070B0221CA786F00336C45 /* KakaoImageViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A070B1521CA787000336C45 /* KakaoImageViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A070B2D21CA787000336C45 /* Build configuration list for PBXNativeTarget "KakaoImageViewerTests" */;
+			buildPhases = (
+				9A070B1221CA787000336C45 /* Sources */,
+				9A070B1321CA787000336C45 /* Frameworks */,
+				9A070B1421CA787000336C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A070B1821CA787000336C45 /* PBXTargetDependency */,
+			);
+			name = KakaoImageViewerTests;
+			productName = KakaoImageViewerTests;
+			productReference = 9A070B1621CA787000336C45 /* KakaoImageViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A070B2021CA787000336C45 /* KakaoImageViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A070B3021CA787000336C45 /* Build configuration list for PBXNativeTarget "KakaoImageViewerUITests" */;
+			buildPhases = (
+				9A070B1D21CA787000336C45 /* Sources */,
+				9A070B1E21CA787000336C45 /* Frameworks */,
+				9A070B1F21CA787000336C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A070B2321CA787000336C45 /* PBXTargetDependency */,
+			);
+			name = KakaoImageViewerUITests;
+			productName = KakaoImageViewerUITests;
+			productReference = 9A070B2121CA787000336C45 /* KakaoImageViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A070AFA21CA786F00336C45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Doyeong Yeom";
+				TargetAttributes = {
+					9A070B0121CA786F00336C45 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9A070B1521CA787000336C45 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9A070B0121CA786F00336C45;
+					};
+					9A070B2021CA787000336C45 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9A070B0121CA786F00336C45;
+					};
+				};
+			};
+			buildConfigurationList = 9A070AFD21CA786F00336C45 /* Build configuration list for PBXProject "KakaoImageViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A070AF921CA786F00336C45;
+			productRefGroup = 9A070B0321CA786F00336C45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A070B0121CA786F00336C45 /* KakaoImageViewer */,
+				9A070B1521CA787000336C45 /* KakaoImageViewerTests */,
+				9A070B2021CA787000336C45 /* KakaoImageViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A070B0021CA786F00336C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A070B1021CA786F00336C45 /* LaunchScreen.storyboard in Resources */,
+				9A070B0D21CA786F00336C45 /* Assets.xcassets in Resources */,
+				9A070B0B21CA786F00336C45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A070B1421CA787000336C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A070B1F21CA787000336C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64B737A0DCC7A243B2A65CF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KakaoImageViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A070AFE21CA786F00336C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A070B0821CA786F00336C45 /* ViewController.swift in Sources */,
+				9A070B3421CA7D5700336C45 /* APIService.swift in Sources */,
+				9A070B3821CA87F800336C45 /* ImageTableViewCell.swift in Sources */,
+				9A070B0621CA786F00336C45 /* AppDelegate.swift in Sources */,
+				9A070B3621CA7F3100336C45 /* ImageListModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A070B1221CA787000336C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A070B1B21CA787000336C45 /* KakaoImageViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A070B1D21CA787000336C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A070B2621CA787000336C45 /* KakaoImageViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A070B1821CA787000336C45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A070B0121CA786F00336C45 /* KakaoImageViewer */;
+			targetProxy = 9A070B1721CA787000336C45 /* PBXContainerItemProxy */;
+		};
+		9A070B2321CA787000336C45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A070B0121CA786F00336C45 /* KakaoImageViewer */;
+			targetProxy = 9A070B2221CA787000336C45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A070B0921CA786F00336C45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A070B0A21CA786F00336C45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A070B0E21CA786F00336C45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A070B0F21CA786F00336C45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A070B2821CA787000336C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A070B2921CA787000336C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A070B2B21CA787000336C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C11A1E5E7EE57481432500 /* Pods-KakaoImageViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KakaoImageViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueprog.KakaoImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A070B2C21CA787000336C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75EE75D495AAE0117A92912 /* Pods-KakaoImageViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KakaoImageViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueprog.KakaoImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A070B2E21CA787000336C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KakaoImageViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueprog.KakaoImageViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KakaoImageViewer.app/KakaoImageViewer";
+			};
+			name = Debug;
+		};
+		9A070B2F21CA787000336C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KakaoImageViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueprog.KakaoImageViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KakaoImageViewer.app/KakaoImageViewer";
+			};
+			name = Release;
+		};
+		9A070B3121CA787000336C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KakaoImageViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueprog.KakaoImageViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KakaoImageViewer;
+			};
+			name = Debug;
+		};
+		9A070B3221CA787000336C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KakaoImageViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueprog.KakaoImageViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KakaoImageViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A070AFD21CA786F00336C45 /* Build configuration list for PBXProject "KakaoImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A070B2821CA787000336C45 /* Debug */,
+				9A070B2921CA787000336C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A070B2A21CA787000336C45 /* Build configuration list for PBXNativeTarget "KakaoImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A070B2B21CA787000336C45 /* Debug */,
+				9A070B2C21CA787000336C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A070B2D21CA787000336C45 /* Build configuration list for PBXNativeTarget "KakaoImageViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A070B2E21CA787000336C45 /* Debug */,
+				9A070B2F21CA787000336C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A070B3021CA787000336C45 /* Build configuration list for PBXNativeTarget "KakaoImageViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A070B3121CA787000336C45 /* Debug */,
+				9A070B3221CA787000336C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A070AFA21CA786F00336C45 /* Project object */;
+}
